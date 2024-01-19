@@ -32,10 +32,7 @@ export default {
 <template>
 	<div class="personne">
 	  <h1>Ceci est une page de personnes</h1>
-	  <router-link to="/addcontacts">
-  		<i class="fas fa-plus"></i>
-  		Ajouter une personne
-		</router-link>
+	  <router-link to="/addcontacts">Ajouter un contact</router-link>
 	  <div class="cartes">
 		<CarteContact v-for="personne in personneStore.Contacts" :key="personne.nom" :personne="personne" />
 	  </div>
@@ -51,5 +48,10 @@ export default {
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-
+a {
+	display:grid;
+	justify-content: center;
+	text-decoration: none;
+	color: white;
+}
 </style>

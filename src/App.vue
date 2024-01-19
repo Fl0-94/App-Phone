@@ -34,7 +34,7 @@ nav {
   padding: 0 1rem;
   border-top: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
-  background-color: white;
+  background-color: #42b983;
   margin-bottom: 2rem;
   display: flex;
   justify-content: center;
@@ -42,7 +42,7 @@ nav {
 }
 
 nav a.router-link-exact-active {
-  color: red;
+  color: blue;
 }
 
 nav a.router-link-exact-active:hover {
@@ -54,7 +54,7 @@ nav a {
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
   text-decoration: none;
-  color: red;
+  color: white;
 }
 
 nav a:first-of-type {
