@@ -13,7 +13,9 @@ export default {
 <template>
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/contacts">Contacts</RouterLink>
+        <RouterLink to="/clavier">Clavier</RouterLink>
+        <RouterLink to="/journal">Journal</RouterLink>
       </nav>
   <RouterView /> 
  
@@ -29,10 +31,18 @@ nav {
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
+  padding: 0 1rem;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  background-color: white;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 1Opx;
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
+  color: red;
 }
 
 nav a.router-link-exact-active:hover {
@@ -43,6 +53,8 @@ nav a {
   display: inline-block;
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
+  text-decoration: none;
+  color: red;
 }
 
 nav a:first-of-type {

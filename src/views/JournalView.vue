@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <div class="home">
-    <h1>Home</h1>
+  <div class="journal">
+    <h1>journal</h1>
     <p>Home page content goes here.</p>
   </div>
 </template>
